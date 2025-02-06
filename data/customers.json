@@ -4,7 +4,7 @@
       "name": "Roman",
       "email": "hado@gmail.com",
       "phone": "+380962490465",
-      "sex": "Male",
+      "sex": "male",
       "city": "Lviv",
       "accepts_marketing": true,
       "note": "The best Shopify developer"
@@ -13,7 +13,7 @@
       "name": "Romanna",
       "email": "romanna@gmail.com",
       "phone": null,
-      "sex": "Female",
+      "sex": "female",
       "city": "Lviv",
       "accepts_marketing": false,
       "note": "girl"
