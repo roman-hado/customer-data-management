@@ -1,5 +1,5 @@
 const http = require("http");
-const PORT = 3000;
+const { PORT, ORIGIN } = require("./constants/globals");
 const customerRoutes = require('./routes/customers');
 const routes = {
   ...customerRoutes
@@ -7,7 +7,8 @@ const routes = {
 
 const server = http.createServer((req, res) => {
   const { url, method } = req;
-  const routeHandler = routes[method]?.[url];
+  const { pathname } = new URL(url, ORIGIN);
+  const routeHandler = routes[method]?.[pathname];
 
   if (routeHandler) {
     routeHandler(req, res);

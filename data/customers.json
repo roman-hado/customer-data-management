@@ -17,6 +17,14 @@
       "city": "Lviv",
       "accepts_marketing": false,
       "note": "girl"
+    },
+    {
+      "name": "Jogn",
+      "age": 20
+    },
+    {
+      "name": "Kate",
+      "age": 20
     }
   ]
 }
